@@ -43,8 +43,15 @@ table {
 	box-sizing: border-box;
 }
 
-
-
+@media screen and (max-width: 600px) {
+    .contact-body {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 100px;
+        padding: 2px;
+}
+}
 
 .header {
     width: 100%;
